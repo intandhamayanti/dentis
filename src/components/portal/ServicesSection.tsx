@@ -173,7 +173,7 @@ export const ServicesSection: React.FC = () => {
 
         {/* Headline / Judul Utama */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight text-center">
-          Solusi personal untuk kesehatan gigi optimal<br className="hidden sm:inline" /> dan senyum percaya diri Anda sekeluarga.
+          Perawatan Lengkap untuk Senyum Percaya Diri
         </h2>
       </div>
 
