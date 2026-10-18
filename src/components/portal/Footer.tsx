@@ -293,13 +293,13 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* ROW 3: FOOTER CARD (dentis Brand, Navigasi, Ikuti Kami, Hak Cipta) */}
+        {/* ROW 3: FOOTER CARD (Dentis Brand, Navigasi, Ikuti Kami, Hak Cipta) */}
         <div className="bg-white rounded-[20px] sm:rounded-[24px] lg:rounded-[28px] p-6 sm:p-10 lg:p-12 border border-slate-100 shadow-xs flex flex-col justify-between">
           
           {/* Main Footer Content */}
           <div className="flex flex-col lg:flex-row lg:items-start justify-between gap-8 sm:gap-12 pb-8 sm:pb-12 border-b border-slate-200/80">
             
-            {/* Kiri: Big Typography "dentis" & Brand Identity */}
+            {/* Kiri: Big Typography "Dentis" & Brand Identity */}
             <div className="max-w-md">
               <div
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -308,14 +308,14 @@ export const Footer: React.FC = () => {
                 <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
                   <Image
                     src="/assets/logo-teal-original.png"
-                    alt="dentis logo"
+                    alt="Dentis logo"
                     width={48}
                     height={48}
                     className="w-full h-full object-contain"
                   />
                 </div>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-none">
-                  dentis
+                  Dentis
                 </h2>
               </div>
 

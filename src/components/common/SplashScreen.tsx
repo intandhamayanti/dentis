@@ -215,7 +215,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
           >
             <Image
               src="/assets/logo-white-clean.png"
-              alt="dentis. logo"
+              alt="Dentis logo"
               width={112}
               height={112}
               priority
@@ -225,7 +225,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
           </motion.div>
         </div>
 
-        {/* Brand Name "dentis." with Staggered Entrance */}
+        {/* Brand Name "Dentis" with Staggered Entrance */}
         <motion.div
           className="flex items-baseline justify-center font-bold tracking-tight text-4xl sm:text-5xl md:text-6xl text-white select-none"
           style={{ fontFamily: "var(--font-bricolage), sans-serif" }}
@@ -237,7 +237,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
             ease: [0.16, 1, 0.3, 1],
           }}
         >
-          <span>dentis</span>
+          <span>Dentis</span>
         </motion.div>
 
         {/* Tagline "Precision Dental Care & Aesthetics" */}

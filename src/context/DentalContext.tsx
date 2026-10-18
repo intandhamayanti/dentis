@@ -244,7 +244,7 @@ export const DentalProvider: React.FC<{ children: React.ReactNode }> = ({
 
   const updateCmsConfig = (updates: Partial<CmsConfig>) => {
     setCmsConfig((prev) => ({ ...prev, ...updates }));
-    showToast("Pengaturan CMS dentis. berhasil disimpan!", "success");
+    showToast("Pengaturan CMS Dentis berhasil disimpan!", "success");
   };
 
   const setActivePatientForOdontogram = (patientName: string) => {

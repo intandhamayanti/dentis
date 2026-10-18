@@ -40,7 +40,7 @@ export const HeroSection: React.FC = () => {
             <div className="w-[63.5%] h-[380px] lg:h-[420px] rounded-[22px] lg:rounded-[26px] overflow-hidden relative shadow-xs border border-white/10 bg-slate-900 select-none">
               <Image
                 src="/assets/hero-clinic-operatory.jpg"
-                alt="Suasana klinik gigi modern dentis dengan fasilitas berteknologi tinggi dan pemandangan kota"
+                alt="Suasana klinik gigi modern Dentis dengan fasilitas berteknologi tinggi dan pemandangan kota"
                 fill
                 priority
                 className="object-cover object-center pointer-events-none select-none"
@@ -52,7 +52,7 @@ export const HeroSection: React.FC = () => {
             <div className="w-[36.5%] h-[380px] lg:h-[420px] rounded-[22px] lg:rounded-[26px] overflow-hidden relative shadow-xs border border-white/10 bg-slate-900 select-none">
               <Image
                 src="/assets/hero-patient-smile.jpg"
-                alt="Pasien perempuan Indonesia dengan senyum alami dan percaya diri di klinik dentis"
+                alt="Pasien perempuan Indonesia dengan senyum alami dan percaya diri di klinik Dentis"
                 fill
                 priority
                 className="object-cover object-[center_35%] pointer-events-none select-none"
@@ -147,7 +147,7 @@ export const HeroSection: React.FC = () => {
         <div className="w-full aspect-[4/3] sm:aspect-[16/10] h-[230px] sm:h-[320px] rounded-[24px] sm:rounded-[28px] overflow-hidden relative shadow-sm select-none">
           <Image
             src="/assets/hero-clinic-operatory.jpg"
-            alt="Suasana klinik gigi modern dentis dengan fasilitas berteknologi tinggi"
+            alt="Suasana klinik gigi modern Dentis dengan fasilitas berteknologi tinggi"
             fill
             priority
             className="object-cover object-center pointer-events-none select-none"

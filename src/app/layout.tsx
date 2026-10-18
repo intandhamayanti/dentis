@@ -24,11 +24,11 @@ const getBaseUrl = () => {
 
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseUrl()),
-  title: "dentis - Klinik Gigi Spesialis & Estetika Presisi",
+  title: "Dentis - Klinik Gigi Spesialis & Estetika Presisi",
   description:
     "Perawatan gigi modern minim rasa sakit dengan teknologi digital presisi, dokter spesialis terpercaya, dan suasana privat yang tenang.",
-  applicationName: "dentis",
-  authors: [{ name: "dentis Dental Clinic" }],
+  applicationName: "Dentis",
+  authors: [{ name: "Dentis Dental Clinic" }],
   keywords: [
     "klinik gigi",
     "dokter gigi spesialis",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "implan gigi",
     "veneer gigi",
     "pemutihan gigi",
-    "dentis",
+    "Dentis",
   ],
   icons: {
     icon: [
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "id_ID",
     url: "/",
-    siteName: "dentis",
-    title: "dentis - Klinik Gigi Spesialis & Estetika Presisi",
+    siteName: "Dentis",
+    title: "Dentis - Klinik Gigi Spesialis & Estetika Presisi",
     description:
       "Perawatan gigi modern minim rasa sakit dengan teknologi digital presisi, dokter spesialis terpercaya, dan suasana privat yang tenang.",
     images: [
@@ -62,13 +62,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "dentis - Klinik Gigi Spesialis & Estetika Presisi",
+        alt: "Dentis - Klinik Gigi Spesialis & Estetika Presisi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "dentis - Klinik Gigi Spesialis & Estetika Presisi",
+    title: "Dentis - Klinik Gigi Spesialis & Estetika Presisi",
     description:
       "Perawatan gigi modern minim rasa sakit dengan teknologi digital presisi, dokter spesialis terpercaya, dan suasana privat yang tenang.",
     images: ["/og-image.jpg"],

@@ -32,7 +32,7 @@ interface FaqItem {
 const FAQ_ITEMS: FaqItem[] = [
   {
     id: "faq-1",
-    question: "Bagaimana cara melakukan reservasi jadwal perawatan di dentis.?",
+    question: "Bagaimana cara melakukan reservasi jadwal perawatan di Dentis?",
     answer:
       "Cukup klik tombol 'Reservasi Jadwal', pilih jenis layanan, tentukan dokter spesialis atau dokter umum pilihan Anda, lalu pilih tanggal dan jam yang tersedia secara instan.",
   },
@@ -55,7 +55,7 @@ const FAQ_ITEMS: FaqItem[] = [
     question:
       "Berapa lama waktu tunggu saat datang ke klinik jika sudah reservasi online?",
     answer:
-      "Sistem reservasi dentis. berbasis appointment-first dengan slot waktu yang terjadwal ketat. Waktu tunggu Anda di klinik rata-rata kurang dari 10 menit sebelum masuk ke ruang perawatan.",
+      "Sistem reservasi Dentis berbasis appointment-first dengan slot waktu yang terjadwal ketat. Waktu tunggu Anda di klinik rata-rata kurang dari 10 menit sebelum masuk ke ruang perawatan.",
   },
   {
     id: "faq-5",

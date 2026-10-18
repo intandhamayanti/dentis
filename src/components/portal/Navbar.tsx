@@ -71,7 +71,7 @@ export const Navbar: React.FC = () => {
               : "max-w-7xl px-3 sm:px-6 py-4 sm:py-7 bg-transparent border-transparent"
           }`}
         >
-          {/* KIRI: Logo Mark dentis + Teks dentis. */}
+          {/* KIRI: Logo Mark Dentis + Teks Dentis */}
           <div
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group shrink-0 select-none"
@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
             <div className="relative w-8 h-8 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
               <Image
                 src="/assets/logo-teal-original.png"
-                alt="dentis logo"
+                alt="Dentis logo"
                 width={34}
                 height={34}
                 priority
@@ -87,7 +87,7 @@ export const Navbar: React.FC = () => {
               />
             </div>
             <span className="font-bold text-2xl tracking-tight text-slate-900 group-hover:text-[#0D5966] transition-colors">
-              dentis
+              Dentis
             </span>
           </div>
 
@@ -166,7 +166,7 @@ export const Navbar: React.FC = () => {
                 <div className="relative w-8 h-8 flex items-center justify-center">
                   <Image
                     src="/assets/logo-teal-original.png"
-                    alt="dentis logo"
+                    alt="Dentis logo"
                     width={34}
                     height={34}
                     priority
@@ -174,7 +174,7 @@ export const Navbar: React.FC = () => {
                   />
                 </div>
                 <span className="font-bold text-2xl tracking-tight text-slate-900">
-                  dentis
+                  Dentis
                 </span>
               </div>
 

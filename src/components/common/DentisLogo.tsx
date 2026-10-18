@@ -44,7 +44,7 @@ export const DentisLogo: React.FC<DentisLogoProps> = ({
       >
         <Image
           src={logoSrc}
-          alt="dentis. official logo"
+          alt="Dentis official logo"
           width={dim.width}
           height={dim.height}
           priority
@@ -59,7 +59,7 @@ export const DentisLogo: React.FC<DentisLogoProps> = ({
           }`}
           style={{ fontFamily: "var(--font-bricolage), sans-serif" }}
         >
-          <span>dentis</span>
+          <span>Dentis</span>
         </div>
         {showTagline && (
           <span

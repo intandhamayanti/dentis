@@ -46,7 +46,7 @@ export const Navbar: React.FC = () => {
       {/* Floating Glassmorphism Pill (Hanya muncul saat di-scroll) */}
       <div className="w-full max-w-4xl bg-white/85 backdrop-blur-2xl rounded-full border border-white/60 shadow-2xl px-5 sm:px-7 py-2.5 transition-all">
         <div className="flex items-center justify-between gap-4">
-          {/* Logo Asli "dentis." */}
+          {/* Logo Asli "Dentis" */}
           <div
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="cursor-pointer group flex items-center shrink-0"

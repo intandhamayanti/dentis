@@ -7,7 +7,7 @@ export const FloatingWhatsApp: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const whatsappUrl =
-    "https://wa.me/6282123456789?text=Halo%20dentis%2C%20saya%20ingin%20konsultasi%20mengenai%20jadwal%20dan%20perawatan%20gigi.";
+    "https://wa.me/6282123456789?text=Halo%20Dentis%2C%20saya%20ingin%20konsultasi%20mengenai%20jadwal%20dan%20perawatan%20gigi.";
 
   return (
     <aside

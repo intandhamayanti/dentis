@@ -448,7 +448,7 @@ export const BookingModal: React.FC = () => {
                   Terima Kasih, {patientName}!
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 max-w-md mx-auto mt-1">
-                  Jadwal Anda telah tercatat pada sistem klinik dentis.
+                  Jadwal Anda telah tercatat pada sistem klinik Dentis.
                   Petugas resepsionis kami siap menyambut kedatangan Anda.
                 </p>
               </div>

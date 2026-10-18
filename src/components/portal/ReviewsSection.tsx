@@ -41,20 +41,20 @@ const REVIEWS_DATA: PatientReview[] = [
     name: "Nadia Anindita",
     service: "Clear Aligners",
     quote:
-      "Dulu selalu ragu pasang behel karena tuntutan pekerjaan sering meeting. Di dentis, simulasi 3D-nya jelas dan alignernya benar-benar transparan tak terlihat. Sekarang senyum jauh lebih percaya diri.",
+      "Dulu selalu ragu pasang behel karena tuntutan pekerjaan sering meeting. Di Dentis, simulasi 3D-nya jelas dan alignernya benar-benar transparan tak terlihat. Sekarang senyum jauh lebih percaya diri.",
     rating: 5,
     imageSrc: "/assets/reviews/After-Treatment Smile in a Modern Clinic.png",
-    imageAlt: "Pasien wanita senyum rapi dan cerah setelah perawatan clear aligners di dentis",
+    imageAlt: "Pasien wanita senyum rapi dan cerah setelah perawatan clear aligners di Dentis",
   },
   {
     id: "rev-2",
     name: "Raditya Pratama",
     service: "Pembersihan Karang (Scaling)",
     quote:
-      "Bertahun-tahun selalu menunda ke dokter gigi karena trauma ngilu. Di dentis sama sekali tanpa penghakiman, dokter sangat teliti dan suasananya setenang lounge hotel. Rutin kontrol tiap enam bulan tanpa ragu.",
+      "Bertahun-tahun selalu menunda ke dokter gigi karena trauma ngilu. Di Dentis sama sekali tanpa penghakiman, dokter sangat teliti dan suasananya setenang lounge hotel. Rutin kontrol tiap enam bulan tanpa ragu.",
     rating: 5,
     imageSrc: "/assets/reviews/Happy Patient at the Dentist.png",
-    imageAlt: "Pasien pria puas dan rileks setelah scaling gigi di dentis",
+    imageAlt: "Pasien pria puas dan rileks setelah scaling gigi di Dentis",
   },
   {
     id: "rev-3",
@@ -64,7 +64,7 @@ const REVIEWS_DATA: PatientReview[] = [
       "Veneer porselennya sangat teliti disesuaikan proporsi senyum dan warna kulit wajah. Nggak terkesan kaku atau terlalu putih buatan. Hasilnya halus, natural, dan bikin senyum terlihat segar elegan.",
     rating: 5,
     imageSrc: "/assets/reviews/Smiling Patient in Modern Dental Clinic.png",
-    imageAlt: "Pasien wanita berhijab dengan senyum natural veneer porselen di dentis",
+    imageAlt: "Pasien wanita berhijab dengan senyum natural veneer porselen di Dentis",
   },
   {
     id: "rev-4",
@@ -74,27 +74,27 @@ const REVIEWS_DATA: PatientReview[] = [
       "Implan digital CEREC sangat canggih dan tanpa cetak lilin manual yang bikin enek. Prosesnya cepat, presisi, dan minim rasa sakit. Sore hari setelah tindakan saya sudah bisa makan santai.",
     rating: 5,
     imageSrc: "/assets/reviews/Relaxed Smile in the Dental Chair.png",
-    imageAlt: "Pasien pria dewasa tersenyum nyaman setelah perawatan implan gigi di dentis",
+    imageAlt: "Pasien pria dewasa tersenyum nyaman setelah perawatan implan gigi di Dentis",
   },
   {
     id: "rev-5",
     name: "Maya Sasmita (Ibu dari Aira)",
     service: "Gigi Anak & Keluarga",
     quote:
-      "Anak pertama saya dulu histeris setiap dengar kata dokter gigi. Di dentis pendekatannya sangat lembut dan menyenangkan. Sekarang dia sendiri yang antusias minta kontrol rutin tanpa dipaksa.",
+      "Anak pertama saya dulu histeris setiap dengar kata dokter gigi. Di Dentis pendekatannya sangat lembut dan menyenangkan. Sekarang dia sendiri yang antusias minta kontrol rutin tanpa dipaksa.",
     rating: 5,
     imageSrc: "/assets/reviews/Joyful Smile at the Dentist.png",
-    imageAlt: "Pasien anak perempuan tersenyum ceria dan antusias di klinik gigi anak dentis",
+    imageAlt: "Pasien anak perempuan tersenyum ceria dan antusias di klinik gigi anak Dentis",
   },
   {
     id: "rev-6",
     name: "Dimas Prasetyo",
     service: "Laser Whitening Gigi",
     quote:
-      "Treatment laser whitening di dentis cuma butuh waktu satu jam dan hasilnya naik beberapa tingkat lebih cerah natural tanpa rasa ngilu sama sekali. Pelayanan dokter dan stafnya sangat profesional.",
+      "Treatment laser whitening di Dentis cuma butuh waktu satu jam dan hasilnya naik beberapa tingkat lebih cerah natural tanpa rasa ngilu sama sekali. Pelayanan dokter dan stafnya sangat profesional.",
     rating: 5,
     imageSrc: "/assets/reviews/Relaxed Smile in a Modern Dental Clinic.png",
-    imageAlt: "Pasien pria profesional dengan senyum gigi putih cerah alami di dentis",
+    imageAlt: "Pasien pria profesional dengan senyum gigi putih cerah alami di Dentis",
   },
 ];
 
@@ -213,8 +213,6 @@ export const ReviewsSection: React.FC = () => {
                         src={review.imageSrc}
                         alt={review.imageAlt}
                         fill
-                        priority
-                        unoptimized
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 30vw, 320px"
                         className="object-cover object-center select-none"
                       />

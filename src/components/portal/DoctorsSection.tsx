@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useDentalStore } from "@/context/DentalContext";
 
 // 8-spoke asterisk icon matching the Dentis design system
@@ -138,11 +139,12 @@ export const DoctorsSection: React.FC = () => {
             >
               {/* Foto Portrait di Atas: Rasio Square 1:1, full wajah terlihat jelas, TANPA EFEK HOVER */}
               <div className="relative aspect-square w-full rounded-[20px] sm:rounded-[22px] overflow-hidden bg-[#F3F5F4] border border-white/10 shadow-xs">
-                <img
+                <Image
                   src={doctor.image}
                   alt={doctor.name}
-                  className="w-full h-full object-cover object-top pointer-events-none select-none"
-                  loading="lazy"
+                  fill
+                  sizes="310px"
+                  className="object-cover object-top pointer-events-none select-none"
                 />
               </div>
 

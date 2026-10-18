@@ -193,7 +193,7 @@ export const INITIAL_APPOINTMENTS: Appointment[] = [
 
 export const INITIAL_CMS_CONFIG: CmsConfig = {
   announcementText:
-    "✨ Welcome to dentis: Free Digital Smile Scan & Konsultasi untuk Reservasi Pasien Baru Bulan Ini!",
+    "✨ Welcome to Dentis: Free Digital Smile Scan & Konsultasi untuk Reservasi Pasien Baru Bulan Ini!",
   showAnnouncement: true,
   announcementBadge: "Promo Pasien Baru",
   promoDiscountPercent: 15,
@@ -218,7 +218,7 @@ export const INITIAL_TESTIMONIALS = [
     rating: 5,
     treatment: "Clear Aligners & Teeth Whitening",
     comment:
-      "Jujur aku punya trauma ke dokter gigi dari kecil. Tapi waktu pertama kali ke dentis., suasananya super calming kayak lounge estetik. Alat 3D scan digitalnya tanpa cetak pasta enek, dan gigiku naik 7 tingkat shade putih tanpa rasa ngilu!",
+      "Jujur aku punya trauma ke dokter gigi dari kecil. Tapi waktu pertama kali ke Dentis, suasananya super calming kayak lounge estetik. Alat 3D scan digitalnya tanpa cetak pasta enek, dan gigiku naik 7 tingkat shade putih tanpa rasa ngilu!",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
     date: "1 minggu lalu",
     verified: true,
@@ -230,7 +230,7 @@ export const INITIAL_TESTIMONIALS = [
     rating: 5,
     treatment: "Porcelain Veneers",
     comment:
-      "Sebagai arsitek, proporsi dan detail itu segalanya. drg. Adrian bener-bener dengerin ekspektasiku lewat Digital Smile Design. Hasil porcelain veneer di dentis. sangat natural, translucent seperti gigi asli tanpa tampak kaku.",
+      "Sebagai arsitek, proporsi dan detail itu segalanya. drg. Adrian bener-bener dengerin ekspektasiku lewat Digital Smile Design. Hasil porcelain veneer di Dentis sangat natural, translucent seperti gigi asli tanpa tampak kaku.",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
     date: "2 minggu lalu",
     verified: true,
@@ -242,7 +242,7 @@ export const INITIAL_TESTIMONIALS = [
     rating: 5,
     treatment: "Scaling & Deep Cleaning",
     comment:
-      "Standar sterilisasi di dentis. luar biasa tinggi. Pouch instrumen steril dibuka di depan kita. Perawatan deep cleaning-nya benar-benar painless, tidak ada rasa ngilu sama sekali. Highly recommended untuk kesehatan dental rutin!",
+      "Standar sterilisasi di Dentis luar biasa tinggi. Pouch instrumen steril dibuka di depan kita. Perawatan deep cleaning-nya benar-benar painless, tidak ada rasa ngilu sama sekali. Highly recommended untuk kesehatan dental rutin!",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
     date: "3 minggu lalu",
     verified: true,
@@ -254,7 +254,7 @@ export const INITIAL_TESTIMONIALS = [
     rating: 5,
     treatment: "Root Canal Treatment",
     comment:
-      "Dulu selalu mengira perawatan saraf gigi itu menyakitkan. Di dentis., drg. Adrian menggunakan instrumen rotari modern dan anestesi nano. Selesai dalam satu jam tanpa rasa sakit sedikit pun, malamnya bisa tidur nyenyak kembali.",
+      "Dulu selalu mengira perawatan saraf gigi itu menyakitkan. Di Dentis, drg. Adrian menggunakan instrumen rotari modern dan anestesi nano. Selesai dalam satu jam tanpa rasa sakit sedikit pun, malamnya bisa tidur nyenyak kembali.",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
     date: "1 bulan lalu",
     verified: true,

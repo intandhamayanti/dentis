@@ -67,7 +67,7 @@ export const CtaBannerSection: React.FC = () => {
           {/* Sisi Kiri: Pasien Wanita */}
           <PatientCard
             imageSrc="/assets/cta-patient-1.jpg"
-            alt="Pasien wanita dentis tersenyum cerah di klinik modern"
+            alt="Pasien wanita Dentis tersenyum cerah di klinik modern"
             defaultRotateDeg={-7}
           />
 
@@ -78,7 +78,7 @@ export const CtaBannerSection: React.FC = () => {
               <br /> Anda Hari Ini
             </h2>
             <p className="text-white/80 text-[15px] leading-relaxed max-w-xl mb-8 font-normal">
-              Nikmati pengalaman perawatan dental modern yang tenang, nyaman, dan presisi. Jadwalkan kunjungan Anda sekarang bersama tim dokter spesialis dentis.
+              Nikmati pengalaman perawatan dental modern yang tenang, nyaman, dan presisi. Jadwalkan kunjungan Anda sekarang bersama tim dokter spesialis Dentis.
             </p>
             {/* Action Buttons: Booking Sekarang + Konsultasi Gratis (WhatsApp) */}
             <div className="flex flex-row items-center justify-center gap-3.5 sm:gap-4 flex-wrap">
@@ -90,7 +90,7 @@ export const CtaBannerSection: React.FC = () => {
                 <ArrowUpRight className="w-4 h-4 text-[#0D5966] transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0" />
               </button>
               <a
-                href="https://wa.me/6282123456789?text=Halo%20dentis%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
+                href="https://wa.me/6282123456789?text=Halo%20Dentis%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/35 hover:border-white font-medium text-[15px] px-7 py-3.5 rounded-full backdrop-blur-sm shadow-sm transition-all duration-200 cursor-pointer select-none"
@@ -103,7 +103,7 @@ export const CtaBannerSection: React.FC = () => {
           {/* Sisi Kanan: Pasien Pria */}
           <PatientCard
             imageSrc="/assets/cta-patient-2.jpg"
-            alt="Pasien pria dentis tersenyum rapi dengan behel di klinik modern"
+            alt="Pasien pria Dentis tersenyum rapi dengan behel di klinik modern"
             defaultRotateDeg={7}
           />
         </div>
@@ -115,7 +115,7 @@ export const CtaBannerSection: React.FC = () => {
             <br /> Anda Hari Ini
           </h2>
           <p className="text-white/80 text-xs sm:text-sm leading-relaxed max-w-md mb-6 font-normal">
-            Nikmati pengalaman perawatan dental modern yang tenang, nyaman, dan presisi. Jadwalkan kunjungan Anda sekarang bersama tim dokter spesialis dentis.
+            Nikmati pengalaman perawatan dental modern yang tenang, nyaman, dan presisi. Jadwalkan kunjungan Anda sekarang bersama tim dokter spesialis Dentis.
           </p>
 
           {/* Mobile Buttons */}
@@ -128,7 +128,7 @@ export const CtaBannerSection: React.FC = () => {
               <ArrowUpRight className="w-4 h-4 text-[#0D5966] transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0" />
             </button>
             <a
-              href="https://wa.me/6282123456789?text=Halo%20dentis%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
+              href="https://wa.me/6282123456789?text=Halo%20Dentis%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/35 hover:border-white font-medium text-sm px-6 py-3 rounded-full backdrop-blur-sm shadow-sm transition-all duration-200 cursor-pointer select-none"
@@ -141,12 +141,12 @@ export const CtaBannerSection: React.FC = () => {
           <div className="flex items-center justify-center gap-4 sm:gap-6 pt-2">
             <PatientCard
               imageSrc="/assets/cta-patient-1.jpg"
-              alt="Pasien wanita dentis tersenyum cerah di klinik modern"
+              alt="Pasien wanita Dentis tersenyum cerah di klinik modern"
               defaultRotateDeg={-6}
             />
             <PatientCard
               imageSrc="/assets/cta-patient-2.jpg"
-              alt="Pasien pria dentis tersenyum rapi dengan behel di klinik modern"
+              alt="Pasien pria Dentis tersenyum rapi dengan behel di klinik modern"
               defaultRotateDeg={6}
             />
           </div>

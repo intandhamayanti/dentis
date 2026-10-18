@@ -29,10 +29,10 @@ const GoogleIcon: React.FC<{ className?: string }> = ({ className = "w-4 h-4" })
 );
 
 const AVATARS = [
-  { src: "/assets/avatars/avatar-1.jpg", alt: "Pasien dentis" },
-  { src: "/assets/avatars/avatar-2.jpg", alt: "Pasien dentis" },
-  { src: "/assets/avatars/avatar-3.jpg", alt: "Pasien dentis" },
-  { src: "/assets/avatars/avatar-4.jpg", alt: "Pasien dentis" },
+  { src: "/assets/avatars/avatar-1.jpg", alt: "Pasien Dentis" },
+  { src: "/assets/avatars/avatar-2.jpg", alt: "Pasien Dentis" },
+  { src: "/assets/avatars/avatar-3.jpg", alt: "Pasien Dentis" },
+  { src: "/assets/avatars/avatar-4.jpg", alt: "Pasien Dentis" },
 ];
 
 export const CtaBannerSplit: React.FC = () => {
@@ -56,7 +56,7 @@ export const CtaBannerSplit: React.FC = () => {
         <div className="lg:col-span-5 relative w-full rounded-[28px] sm:rounded-[36px] overflow-hidden min-h-[340px] sm:min-h-[420px] lg:min-h-[490px] bg-slate-100 shadow-xl shadow-slate-900/5 border border-slate-200/80 group">
           <Image
             src={activePhoto}
-            alt="Pemeriksaan dan penyesuaian behel gigi di klinik dentis modern"
+            alt="Pemeriksaan dan penyesuaian behel gigi di klinik Dentis modern"
             fill
             className="object-cover object-[62%_35%] transition-transform duration-700 ease-out group-hover:scale-105 pointer-events-none"
             sizes="(max-width: 1024px) 100vw, 42vw"
@@ -77,7 +77,7 @@ export const CtaBannerSplit: React.FC = () => {
           {/* Footer Info Kartu Foto: Opsi Ganti Foto Cepat (Behel / Ruang Operatori / Senyum) */}
           <div className="absolute bottom-5 left-5 right-5 sm:bottom-6 sm:left-6 sm:right-6 z-10 flex items-center justify-between gap-2 flex-wrap">
             <span className="text-white text-xs font-medium drop-shadow-sm hidden sm:inline-block">
-              Perawatan Nyata Pasien dentis
+              Perawatan Nyata Pasien Dentis
             </span>
             <div className="inline-flex items-center p-1 rounded-full bg-black/40 backdrop-blur-md border border-white/20 gap-1 text-[11px]">
               <button

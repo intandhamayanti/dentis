@@ -24,7 +24,7 @@ const AsteriskIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
 );
 
 const ABOUT_DESCRIPTION =
-  "Di dentis, kami memprioritaskan senyum sehat Anda melalui perawatan dokter spesialis berteknologi presisi dalam suasana klinik yang tenang dan nyaman.";
+  "Di Dentis, kami memprioritaskan senyum sehat Anda melalui perawatan dokter spesialis berteknologi presisi dalam suasana klinik yang tenang dan nyaman.";
 
 interface CharData {
   char: string;
@@ -240,6 +240,7 @@ export const AboutSection: React.FC = () => {
               loop
               muted={isMuted}
               playsInline
+              preload="metadata"
               onTimeUpdate={handleTimeUpdate}
               onLoadedMetadata={handleLoadedMetadata}
               onPlay={() => setIsPlaying(true)}

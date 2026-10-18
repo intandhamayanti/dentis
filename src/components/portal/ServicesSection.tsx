@@ -50,7 +50,7 @@ const SERVICES_DATA: ServiceCardData[] = [
     ],
     ctaLabel: "Booking Konsultasi",
     imageSrc: "/assets/service-general-care.jpg",
-    imageAlt: "Dokter gigi spesialis dentis melakukan konsultasi perawatan rutin dengan model anatomi gigi",
+    imageAlt: "Dokter gigi spesialis Dentis melakukan konsultasi perawatan rutin dengan model anatomi gigi",
   },
   {
     id: "cosmetic-dentistry",
