@@ -172,8 +172,13 @@ export const ServicesSection: React.FC = () => {
         </div>
 
         {/* Headline / Judul Utama */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight text-center max-w-2xl mx-auto">
-          Perawatan Lengkap untuk<br />Senyum Percaya Diri
+        <h2 className="text-[21px] min-[360px]:text-[23px] min-[390px]:text-[26px] sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-[1.25] sm:leading-tight text-center max-w-2xl mx-auto">
+          <span className="block whitespace-nowrap sm:whitespace-normal">
+            Perawatan Lengkap untuk
+          </span>
+          <span className="block whitespace-nowrap sm:whitespace-normal">
+            Senyum Percaya Diri
+          </span>
         </h2>
       </div>
 
