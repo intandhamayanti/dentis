@@ -172,8 +172,8 @@ export const ServicesSection: React.FC = () => {
         </div>
 
         {/* Headline / Judul Utama */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight text-center">
-          Perawatan Lengkap untuk Senyum Percaya Diri
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight text-center max-w-2xl mx-auto">
+          Perawatan Lengkap untuk<br />Senyum Percaya Diri
         </h2>
       </div>
 
