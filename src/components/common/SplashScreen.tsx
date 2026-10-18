@@ -238,20 +238,6 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
           }}
         >
           <span>dentis</span>
-          <motion.span
-            className="text-[#34D399] ml-0.5"
-            animate={{
-              scale: [1, 1.25, 1],
-              opacity: [0.85, 1, 0.85],
-            }}
-            transition={{
-              duration: 1.4,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          >
-            .
-          </motion.span>
         </motion.div>
 
         {/* Tagline "Precision Dental Care & Aesthetics" */}

@@ -7,11 +7,11 @@ import { scrollToBookingForm } from "../../lib/navigation";
 
 // 5 Visual Avatar Pasien Nyata Indonesia dengan Senyum Sehat Cerah
 const HERO_PATIENT_AVATARS = [
-  { src: "/assets/reviews/fresh-patient-1.jpg", alt: "Pasien Dentis 1" },
-  { src: "/assets/reviews/fresh-patient-2.jpg", alt: "Pasien Dentis 2" },
-  { src: "/assets/indo-avatar-1.jpg", alt: "Pasien Dentis 3" },
-  { src: "/assets/reviews/fresh-patient-4.jpg", alt: "Pasien Dentis 4" },
-  { src: "/assets/reviews/fresh-patient-5.jpg", alt: "Pasien Dentis 5" },
+  { src: "/assets/avatars/avatar-1.jpg", alt: "Pasien Dentis 1" },
+  { src: "/assets/avatars/avatar-2.jpg", alt: "Pasien Dentis 2" },
+  { src: "/assets/avatars/avatar-3.jpg", alt: "Pasien Dentis 3" },
+  { src: "/assets/avatars/avatar-4.jpg", alt: "Pasien Dentis 4" },
+  { src: "/assets/avatars/avatar-5.jpg", alt: "Pasien Dentis 5" },
 ];
 
 export const HeroSection: React.FC = () => {

@@ -86,7 +86,7 @@ export const CtaBannerClassic: React.FC = () => {
                 <ArrowUpRight className="w-4 h-4 text-[#0D5966] shrink-0" />
               </button>
               <a
-                href="https://wa.me/6282123456789?text=Halo%20dentis.%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
+                href="https://wa.me/6282123456789?text=Halo%20dentis%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/35 hover:border-white font-medium text-[15px] px-7 py-3.5 rounded-full backdrop-blur-sm shadow-sm transition-colors duration-200 cursor-pointer select-none"
@@ -124,7 +124,7 @@ export const CtaBannerClassic: React.FC = () => {
               <ArrowUpRight className="w-4 h-4 text-[#0D5966] shrink-0" />
             </button>
             <a
-              href="https://wa.me/6282123456789?text=Halo%20dentis.%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
+              href="https://wa.me/6282123456789?text=Halo%20dentis%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20perawatan%20gigi."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/35 hover:border-white font-medium text-sm px-6 py-3 rounded-full backdrop-blur-sm shadow-sm transition-colors duration-200 cursor-pointer select-none"

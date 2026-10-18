@@ -60,7 +60,6 @@ export const DentisLogo: React.FC<DentisLogoProps> = ({
           style={{ fontFamily: "var(--font-bricolage), sans-serif" }}
         >
           <span>dentis</span>
-          <span className={isLight ? "text-white/80" : "text-[#0D5966]"}>.</span>
         </div>
         {showTagline && (
           <span

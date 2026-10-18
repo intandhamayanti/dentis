@@ -285,7 +285,7 @@ export const BookingCheckoutModal: React.FC<BookingCheckoutModalProps> = ({
 
   // WhatsApp formatted confirmation text
   const waConfirmMessage = encodeURIComponent(
-    `Halo dentis., saya telah menyelesaikan reservasi jadwal perawatan online.\n\n` +
+    `Halo dentis, saya telah menyelesaikan reservasi jadwal perawatan online.\n\n` +
       `*Detail Reservasi Pasien:*\n` +
       `• ID Booking: ${bookingId || "#DNT-2026-PENDING"}\n` +
       `• Nama Pasien: ${bookingData.name}\n` +
@@ -761,7 +761,7 @@ export const BookingCheckoutModal: React.FC<BookingCheckoutModalProps> = ({
                         QRIS RESMI
                       </span>
                       <span className="text-xs font-bold text-slate-700">
-                        dentis. Clinic Senopati
+                        dentis Clinic Senopati
                       </span>
                     </div>
 

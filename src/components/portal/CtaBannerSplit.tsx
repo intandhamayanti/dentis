@@ -29,10 +29,10 @@ const GoogleIcon: React.FC<{ className?: string }> = ({ className = "w-4 h-4" })
 );
 
 const AVATARS = [
-  { src: "/assets/indo-avatar-1.jpg", alt: "Pasien dentis" },
-  { src: "/assets/indo-avatar-2.jpg", alt: "Pasien dentis" },
-  { src: "/assets/indo-avatar-3.jpg", alt: "Pasien dentis" },
-  { src: "/assets/indo-avatar-4.jpg", alt: "Pasien dentis" },
+  { src: "/assets/avatars/avatar-1.jpg", alt: "Pasien dentis" },
+  { src: "/assets/avatars/avatar-2.jpg", alt: "Pasien dentis" },
+  { src: "/assets/avatars/avatar-3.jpg", alt: "Pasien dentis" },
+  { src: "/assets/avatars/avatar-4.jpg", alt: "Pasien dentis" },
 ];
 
 export const CtaBannerSplit: React.FC = () => {
@@ -77,7 +77,7 @@ export const CtaBannerSplit: React.FC = () => {
           {/* Footer Info Kartu Foto: Opsi Ganti Foto Cepat (Behel / Ruang Operatori / Senyum) */}
           <div className="absolute bottom-5 left-5 right-5 sm:bottom-6 sm:left-6 sm:right-6 z-10 flex items-center justify-between gap-2 flex-wrap">
             <span className="text-white text-xs font-medium drop-shadow-sm hidden sm:inline-block">
-              Perawatan Nyata Pasien dentis.
+              Perawatan Nyata Pasien dentis
             </span>
             <div className="inline-flex items-center p-1 rounded-full bg-black/40 backdrop-blur-md border border-white/20 gap-1 text-[11px]">
               <button

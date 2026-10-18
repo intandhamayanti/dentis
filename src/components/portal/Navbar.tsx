@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
             <div className="relative w-8 h-8 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
               <Image
                 src="/assets/logo-teal-original.png"
-                alt="dentis. logo"
+                alt="dentis logo"
                 width={34}
                 height={34}
                 priority
@@ -87,7 +87,7 @@ export const Navbar: React.FC = () => {
               />
             </div>
             <span className="font-bold text-2xl tracking-tight text-slate-900 group-hover:text-[#0D5966] transition-colors">
-              dentis<span className="text-[#0D5966]">.</span>
+              dentis
             </span>
           </div>
 
@@ -166,7 +166,7 @@ export const Navbar: React.FC = () => {
                 <div className="relative w-8 h-8 flex items-center justify-center">
                   <Image
                     src="/assets/logo-teal-original.png"
-                    alt="dentis. logo"
+                    alt="dentis logo"
                     width={34}
                     height={34}
                     priority
@@ -174,7 +174,7 @@ export const Navbar: React.FC = () => {
                   />
                 </div>
                 <span className="font-bold text-2xl tracking-tight text-slate-900">
-                  dentis<span className="text-[#0D5966]">.</span>
+                  dentis
                 </span>
               </div>
 

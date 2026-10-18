@@ -315,7 +315,7 @@ export const Footer: React.FC = () => {
                   />
                 </div>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-none">
-                  dentis.
+                  dentis
                 </h2>
               </div>
 

@@ -193,7 +193,7 @@ export const INITIAL_APPOINTMENTS: Appointment[] = [
 
 export const INITIAL_CMS_CONFIG: CmsConfig = {
   announcementText:
-    "✨ Welcome to dentis.: Free 3D Digital Smile Scan & Konsultasi untuk Reservasi Pasien Baru Bulan Ini!",
+    "✨ Welcome to dentis: Free Digital Smile Scan & Konsultasi untuk Reservasi Pasien Baru Bulan Ini!",
   showAnnouncement: true,
   announcementBadge: "Promo Pasien Baru",
   promoDiscountPercent: 15,
