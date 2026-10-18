@@ -15,11 +15,18 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+const getBaseUrl = () => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return "https://dentis.id";
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dentis.id"),
+  metadataBase: new URL(getBaseUrl()),
   title: "dentis. - Klinik Gigi Spesialis & Estetika Presisi",
   description:
-    "Perawatan gigi modern minim rasa sakit dengan simulasi digital 3D, dokter spesialis terpercaya, dan suasana privat yang tenang.",
+    "Perawatan gigi modern minim rasa sakit dengan teknologi digital presisi, dokter spesialis terpercaya, dan suasana privat yang tenang.",
   applicationName: "dentis.",
   authors: [{ name: "dentis. Dental Clinic" }],
   keywords: [
@@ -45,11 +52,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://dentis.id",
+    url: "/",
     siteName: "dentis.",
     title: "dentis. - Klinik Gigi Spesialis & Estetika Presisi",
     description:
-      "Perawatan gigi modern minim rasa sakit dengan simulasi digital 3D, dokter spesialis terpercaya, dan suasana privat yang tenang.",
+      "Perawatan gigi modern minim rasa sakit dengan teknologi digital presisi, dokter spesialis terpercaya, dan suasana privat yang tenang.",
     images: [
       {
         url: "/og-image.jpg",
@@ -63,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "dentis. - Klinik Gigi Spesialis & Estetika Presisi",
     description:
-      "Perawatan gigi modern minim rasa sakit dengan simulasi digital 3D, dokter spesialis terpercaya, dan suasana privat yang tenang.",
+      "Perawatan gigi modern minim rasa sakit dengan teknologi digital presisi, dokter spesialis terpercaya, dan suasana privat yang tenang.",
     images: ["/og-image.jpg"],
   },
 };
